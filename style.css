@@ -1,0 +1,61 @@
+:root {
+  --font-size-header: 1.4rem;
+  --color-font-header:white;
+  --family-font:'Montserrat', sans-serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+.container-intro--info {
+  background-color: #262626;
+  height: 100%;
+  width: 100%;
+}
+.container-intro--info .intro--nav {
+  padding: 15px 0;
+}
+.container-intro--info .intro--nav ol {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 22px;
+}
+.container-intro--info .intro--nav ol li {
+  list-style: none;
+  padding: 0 5px;
+  margin: 0 3px;
+  font-size: var(--font-size-header);
+  font-weight: bold;
+}
+.container-intro--info .intro--nav ol li a {
+  text-decoration: none;
+  color: var(--color-font-header);
+  font-size: 1.1rem;
+  font-family: var(--family-font);
+  font-weight: 400;
+}
+.container-intro--info .intro--nav ol li a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.container-intro--info .intro--profile {
+  display: grid;
+  padding: 0 12px;
+  grid-gap: 10px;
+}
+.container-intro--info .intro--profile h1 {
+  font-family: var(--family-font);
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--color-font-header);
+  letter-spacing: 2px;
+  padding-top: 20px;
+}
+.container-intro--info .intro--profile_img img {
+  width: 100%;
+  height: 160px;
+}
