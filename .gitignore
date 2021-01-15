@@ -1,12 +1,8 @@
-*.png
 *.txt
-*.ttf
 *.eps
 *.psd
 *.pdf
 *.docx
-*.svg
-*.jpg
 *.eot
 *.scss
 *.woff
@@ -14,7 +10,5 @@
 *.mp3
 *.mp4
 *.tmp
-*Batabit/
-*Myblog/
 *Pinterest-Grid/
 *PlatziVideo/
