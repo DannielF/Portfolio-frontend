@@ -1,0 +1,89 @@
+@media all and (max-width: 1023px) and (min-width: 600px) {
+  .container__main {
+    display: grid;
+    grid-template: repeat(10, 1fr) / repeat(10, 1fr);
+  }
+  .container__main--title {
+    margin-inline-start: 0;
+    margin-block-start: 0;
+    grid-row: 3 / 6;
+    grid-column: 2 / 4;
+    display: flex;
+  }
+  .container__main--title h1 {
+    writing-mode: sideways-lr;
+    font-size: 3rem;
+  }
+  .container__main--information {
+    grid-column: 4 / 9;
+    grid-row: 3 / 5;
+    display: grid;
+    grid-template: repeat(3, 100px) / repeat(3, 1fr);
+    place-items: center;
+  }
+  .container__main--information h2 {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    font-size: 3rem;
+  }
+  .container__main--information p {
+    grid-column: 1 / 4;
+    grid-row: 2 / 4;
+    font-size: 2rem;
+    text-align: center;
+    padding-inline: 10px;
+    line-height: 25px;
+    font-weight: 400;
+  }
+  .container__main--links {
+    grid-column: 1 / 4;
+    grid-row: 4 / 5;
+    display: flex;
+  }
+  .container__main--links .links-github img,
+  .container__main--links .links-linkedin img,
+  .container__main--links .links-twitter img {
+    margin-inline: 1rem;
+    width: 50px;
+    height: 50px;
+  }
+  .container__projects--batabit {
+    grid-column: 2 / 5;
+    grid-row: 7 / 10;
+    margin-block-start: 0;
+    display: flex;
+    place-items: center;
+    place-content: center;
+  }
+  .container__projects--batabit img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+  }
+  .container__projects--blogs {
+    grid-column: 7 / 10;
+    grid-row: 7 / 10;
+    margin-block-start: 0;
+    display: flex;
+    place-items: center;
+    place-content: center;
+  }
+  .container__projects--blogs img {
+    width: 200px;
+    height: 325px;
+    border-radius: 10px;
+  }
+  .container__projects--different {
+    grid-column: 5 / 7;
+    grid-row: 7 / 10;
+    margin-block-start: 0;
+    display: flex;
+    place-items: center;
+    place-content: center;
+  }
+  .container__projects--different img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+  }
+}
