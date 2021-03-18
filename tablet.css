@@ -1,4 +1,4 @@
-@media all and (max-width: 1023px) and (min-width: 600px) {
+@media all and (max-width: 1023px) and (min-width: 550px) {
   .container__main {
     display: grid;
     grid-template: repeat(10, 1fr) / repeat(10, 1fr);

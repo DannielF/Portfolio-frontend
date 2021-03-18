@@ -25,9 +25,9 @@ body {
   grid-row: 1 / 3;
 }
 .container__main--title h1 {
-  writing-mode: sideways-lr;
+  writing-mode: vertical-rl;
   font-size: 2.2rem;
-
+  transform: rotate(180deg);
 }
 .container__main--information {
   grid-column: 2 / 10;
