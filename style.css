@@ -50,6 +50,9 @@ body {
   line-height: 25px;
   font-weight: 400;
 }
+/*
+Social Media Links
+*/
 .container__main--links {
   grid-column: 1 / 4;
   grid-row: 4 / 5;
@@ -62,6 +65,13 @@ body {
   width: 45px;
   height: 45px;
 }
+.hoover-link img:hover {
+  width: 50px;
+  height: 50px;
+}
+/*
+Projects
+*/
 .container__projects--batabit {
   grid-column: 2 / 10;
   grid-row: 3 / 4;
@@ -100,7 +110,7 @@ body {
 }
 
 /* device-width from 400px */
-@media all and (max-width: 550px ) and (min-width: 400px) {
+@media all and (max-width: 700px ) and (min-width: 400px) {
   .container__projects--batabit {
     grid-column: 2 / 10;
     grid-row: 3 / 4;
