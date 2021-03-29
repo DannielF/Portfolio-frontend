@@ -16,8 +16,7 @@ From device-width=768px small tablets
   }
   .container__main--title h1 {
     font-size: 3rem;
-    transform: rotate(360deg);
-    writing-mode: sideways-lr;
+    writing-mode: vertical-rl;
   }
   .container__main--information {
     display: grid;
@@ -120,8 +119,6 @@ From Device-width=1024px for big tablets
   }
   .container__main--title h1 {
     font-size: 4rem;
-    transform: rotate(360deg);
-    writing-mode: sideways-lr;
   }
   .container__main--information {
     display: grid;

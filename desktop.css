@@ -16,8 +16,6 @@ From device-width=1280px desktop
   }
   .container__main--title h1 {
     font-size: 4rem;
-    transform: rotate(360deg);
-    writing-mode: sideways-lr;
   }
   .container__main--information {
     display: grid;
