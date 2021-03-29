@@ -69,15 +69,15 @@ From device-width=1280px desktop
   }
   .container__projects--different {
     display: flex;
-    grid-column: 11 / 14;
-    grid-row: 10 / 14;
+    grid-column: 15 / 17;
+    grid-row: 5 / 7;
     margin-block-start: 0;
     place-items: center;
     place-content: center;
   }
   .container__projects--different img {
     border-radius: 50%;
-    height: 170px;
-    width: 170px;
+    height: 140px;
+    width: 140px;
   }
 }
