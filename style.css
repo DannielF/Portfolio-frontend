@@ -63,10 +63,12 @@ Social Media Links
   height: 45px;
   margin-inline: 1rem;
   width: 45px;
+  transition-duration: .75s;
 }
 .hoover-link img:hover {
   height: 50px;
   width: 50px;
+  transition-duration: 1s;
 }
 /*
 Projects
