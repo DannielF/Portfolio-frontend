@@ -63,7 +63,7 @@ Social Media Links
   height: 45px;
   margin-inline: 1rem;
   width: 45px;
-  transition-duration: .75s;
+  transition-duration: 0.75s;
 }
 .hoover-link img:hover {
   height: 50px;
@@ -77,70 +77,73 @@ Projects
   display: flex;
   grid-column: 2 / 10;
   grid-row: 3 / 4;
-  margin-block-start: 50px;
-  place-content: space-evenly;
+  margin-block-start: 5rem;
+  height: 400px;
+  width: 100%;
+  place-content: center;
 }
 .container__projects--batabit img {
   border-radius: 10px;
-  height: auto;
-  width: 190px;
 }
 .container__projects--blogs {
   display: flex;
   grid-column: 2 / 10;
   grid-row: 4 / 5;
-  margin-block-start: 30px;
-  place-content: space-evenly;
+  margin-block-start: 3rem;
+  height: 300px;
+  width: 100%;
+  place-content: center;
 }
 .container__projects--blogs img {
   border-radius: 10px;
-  height: auto;
-  width: 190px;
 }
 .container__projects--different {
   display: flex;
   grid-column: 2 / 10;
   grid-row: 5 / 6;
-  margin-block-start: 30px;
-  place-content: space-evenly;
-  padding-block-end: 20px;
+  margin-block: 3rem;
+  height: 200px;
+  width: 90%;
+  place-self: center;
 }
 .container__projects--different img {
   border-radius: 50%;
-  height: 190px;
-  width: 190px;
+  overflow: hidden;
+  object-fit: cover;
 }
 
 /* device-width from 400px */
-@media all and (max-width: 600px) and (min-width: 400px) {
+@media all and (min-width: 400px) {
   .container__projects--batabit {
-    grid-column: 2 / 10;
-    grid-row: 3 / 4;
-    margin-block-start: 50px;
-  }
-  .container__projects--batabit img {
-    border-radius: 10px;
-    height: auto;
-    width: 240px;
+    height: 450px;
+    width: 100%;
+    place-content: center;
   }
   .container__projects--blogs {
-    grid-column: 2 / 10;
-    grid-row: 4 / 5;
-    margin-block-start: 30px;
-  }
-  .container__projects--blogs img {
-    border-radius: 10px;
-    height: auto;
-    width: 240px;
+    height: 350px;
+    width: 100%;
+    place-content: center;
   }
   .container__projects--different {
-    grid-column: 2 / 10;
-    grid-row: 5 / 6;
-    margin-block-start: 30px;
-  }
-  .container__projects--different img {
-    border-radius: 50%;
     height: 240px;
-    width: 240px;
+    width: 80%;
+  }
+}
+
+/* device-width from 600px */
+@media all and (min-width: 601px) {
+  .container__projects--batabit {
+    height: 500px;
+    width: 100%;
+    place-content: center;
+  }
+  .container__projects--blogs {
+    height: 400px;
+    width: 100%;
+    place-content: center;
+  }
+  .container__projects--different {
+    height: 240px;
+    width: 50%;
   }
 }
