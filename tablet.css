@@ -96,6 +96,18 @@ From device-width=768px small tablets
     width: 100%;
     object-fit: fill;
   }
+  .links-batabit {
+    grid-column: 3 / 4;
+    grid-row: 10 / 11;
+    margin-block-start: 10px;
+    place-self: center;
+  }
+  .links-myBlog {
+    grid-column: 8 / 9;
+    grid-row: 10 / 11;
+    place-self: center;
+    margin-block-start: 10px;
+  }
 }
 
 /*
@@ -151,5 +163,17 @@ From Device-width=1024px for big tablets
     grid-row: 10 / 13;
     margin-block-start: 0;
     height: 180px;
+  }
+  .links-batabit {
+    grid-column: 4 / 6;
+    grid-row: 14 / 15;
+    margin-block-start: 10px;
+    place-self: center;
+  }
+  .links-myBlog {
+    grid-column: 11 / 13;
+    grid-row: 14 / 15;
+    place-self: center;
+    margin-block-start: 10px;
   }
 }

@@ -62,3 +62,19 @@ From device-width=1280px desktop
     width: 50%;
   }
 }
+.links-batabit {
+  grid-column: 4 / 6;
+  grid-row: 16 / 17;
+  margin-block-start: 10px;
+  place-self: center;
+}
+
+.links-myBlog {
+  grid-column: 9 / 10;
+  grid-row: 15 / 16;
+  place-self: center;
+  margin-block-start: 10px;
+}
+.links-myBlog img {
+  width: 30px;
+}
