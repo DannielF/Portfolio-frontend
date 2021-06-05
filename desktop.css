@@ -54,12 +54,12 @@ From device-width=1280px desktop
     height: 357px;
   }
   .container__projects--different {
-    display: flex;
-    grid-column: 14 / 18;
+    display: none;
+    /* grid-column: 14 / 18;
     grid-row: 4 / 8;
     margin-block-start: 0;
     height: 140px;
-    width: 50%;
+    width: 50%; */
   }
 }
 .links-batabit {
