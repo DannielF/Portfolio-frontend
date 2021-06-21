@@ -32,8 +32,8 @@ From device-width=1280px desktop
     line-height: 30px;
   }
   .hoover-link img:hover {
-    width: 60px;
-    height: 60px;
+    transform: scale(1.3);
+    transition-duration: 1s;
   }
   /*
   Projects
